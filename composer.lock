@@ -1,0 +1,661 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "294b4e60303ec85aecdb24464cbbe9df",
+    "content-hash": "438754d1b98d9195fc159fb83288f431",
+    "packages": [
+        {
+            "name": "cblanquera/cradle-auth",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cblanquera/cradle-auth.git",
+                "reference": "d0ca220e2de2fbf1001e6c81c6546722549e3125"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cblanquera/cradle-auth/zipball/d0ca220e2de2fbf1001e6c81c6546722549e3125",
+                "reference": "d0ca220e2de2fbf1001e6c81c6546722549e3125",
+                "shasum": ""
+            },
+            "require": {
+                "cblanquera/cradle-schema": "dev-master",
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~5.4",
+                "satooshi/php-coveralls": "^1.0",
+                "squizlabs/php_codesniffer": "~2.6"
+            },
+            "type": "plugin",
+            "autoload": {
+                "psr-4": {
+                    "Cradle\\Framework\\Auth\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Blanquera",
+                    "email": "cblanquera@openovate.com"
+                }
+            ],
+            "description": "Authentication steps for Cradle",
+            "keywords": [
+                "cradle",
+                "cradlephp"
+            ],
+            "time": "2016-08-18 04:09:53"
+        },
+        {
+            "name": "cblanquera/cradle-captcha",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cblanquera/cradle-captcha.git",
+                "reference": "33a63daaf1ce24738db836225c9991c15051ab14"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cblanquera/cradle-captcha/zipball/33a63daaf1ce24738db836225c9991c15051ab14",
+                "reference": "33a63daaf1ce24738db836225c9991c15051ab14",
+                "shasum": ""
+            },
+            "require": {
+                "cradlephp/packages": "dev-master",
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~5.4",
+                "satooshi/php-coveralls": "^1.0",
+                "squizlabs/php_codesniffer": "~2.6"
+            },
+            "type": "plugin",
+            "autoload": {
+                "psr-4": {
+                    "Cradle\\Framework\\Captcha\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Blanquera",
+                    "email": "cblanquera@openovate.com"
+                }
+            ],
+            "description": "Google captcha handler for Cradle",
+            "keywords": [
+                "cradle",
+                "cradlephp"
+            ],
+            "time": "2016-08-19 16:47:33"
+        },
+        {
+            "name": "cblanquera/cradle-csrf",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cblanquera/cradle-csrf.git",
+                "reference": "2569d65acd6cd9a05f092614b32c60cd137d2f28"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cblanquera/cradle-csrf/zipball/2569d65acd6cd9a05f092614b32c60cd137d2f28",
+                "reference": "2569d65acd6cd9a05f092614b32c60cd137d2f28",
+                "shasum": ""
+            },
+            "require": {
+                "cradlephp/packages": "dev-master",
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~5.4",
+                "satooshi/php-coveralls": "^1.0",
+                "squizlabs/php_codesniffer": "~2.6"
+            },
+            "type": "plugin",
+            "autoload": {
+                "psr-4": {
+                    "Cradle\\Framework\\Csrf\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Blanquera",
+                    "email": "cblanquera@openovate.com"
+                }
+            ],
+            "description": "CSRF handler for Cradle",
+            "keywords": [
+                "cradle",
+                "cradlephp"
+            ],
+            "time": "2016-08-19 16:48:46"
+        },
+        {
+            "name": "cblanquera/cradle-file",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cblanquera/cradle-file.git",
+                "reference": "9d1637221d48aa0f27933cdd043d09d2df17c02e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cblanquera/cradle-file/zipball/9d1637221d48aa0f27933cdd043d09d2df17c02e",
+                "reference": "9d1637221d48aa0f27933cdd043d09d2df17c02e",
+                "shasum": ""
+            },
+            "require": {
+                "cblanquera/cradle-schema": "dev-master",
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~5.4",
+                "satooshi/php-coveralls": "^1.0",
+                "squizlabs/php_codesniffer": "~2.6"
+            },
+            "type": "plugin",
+            "autoload": {
+                "psr-4": {
+                    "Cradle\\Framework\\File\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Blanquera",
+                    "email": "cblanquera@openovate.com"
+                }
+            ],
+            "description": "Mass file handler for Cradle",
+            "keywords": [
+                "cradle",
+                "cradlephp"
+            ],
+            "time": "2016-08-18 09:06:16"
+        },
+        {
+            "name": "cblanquera/cradle-handlebars",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cblanquera/cradle-handlebars.git",
+                "reference": "ad78f3125be0cda635d012361acfe125e5b4a808"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cblanquera/cradle-handlebars/zipball/ad78f3125be0cda635d012361acfe125e5b4a808",
+                "reference": "ad78f3125be0cda635d012361acfe125e5b4a808",
+                "shasum": ""
+            },
+            "require": {
+                "cradlephp/packages": "dev-master",
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~5.4",
+                "satooshi/php-coveralls": "^1.0",
+                "squizlabs/php_codesniffer": "~2.6"
+            },
+            "type": "plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Blanquera",
+                    "email": "cblanquera@openovate.com"
+                }
+            ],
+            "description": "Handlebars for Cradle",
+            "keywords": [
+                "cradle",
+                "cradlephp"
+            ],
+            "time": "2016-08-19 16:48:27"
+        },
+        {
+            "name": "cblanquera/cradle-mail",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cblanquera/cradle-mail.git",
+                "reference": "fddbfd1e8453b6e77c869321a3bce7a97fba284b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cblanquera/cradle-mail/zipball/fddbfd1e8453b6e77c869321a3bce7a97fba284b",
+                "reference": "fddbfd1e8453b6e77c869321a3bce7a97fba284b",
+                "shasum": ""
+            },
+            "require": {
+                "cradlephp/packages": "dev-master",
+                "php": ">=5.6.0",
+                "swiftmailer/swiftmailer": "5.4.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~5.4",
+                "satooshi/php-coveralls": "^1.0",
+                "squizlabs/php_codesniffer": "~2.6"
+            },
+            "type": "plugin",
+            "autoload": {
+                "psr-4": {
+                    "Cradle\\Framework\\Mail\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Blanquera",
+                    "email": "cblanquera@openovate.com"
+                }
+            ],
+            "description": "Mail handler for Cradle",
+            "keywords": [
+                "cradle",
+                "cradlephp"
+            ],
+            "time": "2016-08-19 16:48:32"
+        },
+        {
+            "name": "cblanquera/cradle-queue",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cblanquera/cradle-queue.git",
+                "reference": "bbf3b925fe50be06621f12f2718f97fb3c93afac"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cblanquera/cradle-queue/zipball/bbf3b925fe50be06621f12f2718f97fb3c93afac",
+                "reference": "bbf3b925fe50be06621f12f2718f97fb3c93afac",
+                "shasum": ""
+            },
+            "require": {
+                "cradlephp/packages": "dev-master",
+                "php": ">=5.6.0",
+                "php-amqplib/php-amqplib": "^2.6"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~5.4",
+                "satooshi/php-coveralls": "^1.0",
+                "squizlabs/php_codesniffer": "~2.6"
+            },
+            "type": "plugin",
+            "autoload": {
+                "psr-4": {
+                    "Cradle\\Framework\\Queue\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Blanquera",
+                    "email": "cblanquera@openovate.com"
+                }
+            ],
+            "description": "AMQ handler for Cradle",
+            "keywords": [
+                "cradle",
+                "cradlephp"
+            ],
+            "time": "2016-08-19 16:49:05"
+        },
+        {
+            "name": "cblanquera/cradle-schema",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cblanquera/cradle-schema.git",
+                "reference": "2e8854afcfca89f5b73efdca455ed0e3df119fb4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cblanquera/cradle-schema/zipball/2e8854afcfca89f5b73efdca455ed0e3df119fb4",
+                "reference": "2e8854afcfca89f5b73efdca455ed0e3df119fb4",
+                "shasum": ""
+            },
+            "require": {
+                "cblanquera/cradle-handlebars": "dev-master",
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~5.4",
+                "satooshi/php-coveralls": "^1.0",
+                "squizlabs/php_codesniffer": "~2.6"
+            },
+            "type": "plugin",
+            "autoload": {
+                "psr-4": {
+                    "Cradle\\Framework\\Schema\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Blanquera",
+                    "email": "cblanquera@openovate.com"
+                }
+            ],
+            "description": "SQL schema steps for Cradle",
+            "keywords": [
+                "cradle",
+                "cradlephp"
+            ],
+            "time": "2016-08-18 04:10:16"
+        },
+        {
+            "name": "cradlephp/command-line",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CradlePHP/command-line.git",
+                "reference": "8f4a8037691df129a2498d96a262f79fc7b577e3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CradlePHP/command-line/zipball/8f4a8037691df129a2498d96a262f79fc7b577e3",
+                "reference": "8f4a8037691df129a2498d96a262f79fc7b577e3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0",
+                "php-amqplib/php-amqplib": "2.6.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.4",
+                "squizlabs/php_codesniffer": "~1.5"
+            },
+            "bin": [
+                "bin/cradle"
+            ],
+            "type": "cli",
+            "autoload": {
+                "psr-4": {
+                    "Cradle\\CommandLine\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Blanquera",
+                    "email": "cblanquera@openovate.com"
+                }
+            ],
+            "description": "The Cradle command line to manage packages",
+            "homepage": "https://cradlephp.github.io/",
+            "keywords": [
+                "cli",
+                "cradle",
+                "cradlephp"
+            ],
+            "time": "2016-08-21 15:11:07"
+        },
+        {
+            "name": "cradlephp/framework",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CradlePHP/framework.git",
+                "reference": "72ad5dc1d1281e466f07a7fb6f786d8484c33da8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CradlePHP/framework/zipball/72ad5dc1d1281e466f07a7fb6f786d8484c33da8",
+                "reference": "72ad5dc1d1281e466f07a7fb6f786d8484c33da8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~5.4",
+                "satooshi/php-coveralls": "^1.0",
+                "squizlabs/php_codesniffer": "~2.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Cradle\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Blanquera",
+                    "email": "cblanquera@openovate.com"
+                }
+            ],
+            "description": "Cradle Meta Framework focused on the core features.",
+            "homepage": "https://cradlephp.github.io/",
+            "keywords": [
+                "cradle",
+                "cradlephp",
+                "framework"
+            ],
+            "time": "2016-08-22 05:21:58"
+        },
+        {
+            "name": "cradlephp/packages",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CradlePHP/packages.git",
+                "reference": "15b7f5458111d174adc9ac485137f747a7273063"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CradlePHP/packages/zipball/15b7f5458111d174adc9ac485137f747a7273063",
+                "reference": "15b7f5458111d174adc9ac485137f747a7273063",
+                "shasum": ""
+            },
+            "require": {
+                "cradlephp/framework": "dev-master",
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~5.4",
+                "satooshi/php-coveralls": "^1.0",
+                "squizlabs/php_codesniffer": "~2.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Cradle\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Blanquera",
+                    "email": "cblanquera@openovate.com"
+                }
+            ],
+            "description": "Framework Agnotic Packages for the Cradle micro framework",
+            "homepage": "https://cradlephp.github.io/",
+            "keywords": [
+                "cradle",
+                "cradlephp",
+                "library"
+            ],
+            "time": "2016-08-19 16:35:30"
+        },
+        {
+            "name": "php-amqplib/php-amqplib",
+            "version": "v2.6.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-amqplib/php-amqplib.git",
+                "reference": "fa2f0d4410a11008cb36b379177291be7ee9e4f6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-amqplib/php-amqplib/zipball/fa2f0d4410a11008cb36b379177291be7ee9e4f6",
+                "reference": "fa2f0d4410a11008cb36b379177291be7ee9e4f6",
+                "shasum": ""
+            },
+            "require": {
+                "ext-bcmath": "*",
+                "ext-mbstring": "*",
+                "php": ">=5.3.0"
+            },
+            "replace": {
+                "videlalvaro/php-amqplib": "self.version"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8",
+                "scrutinizer/ocular": "^1.1",
+                "squizlabs/php_codesniffer": "^2.5"
+            },
+            "suggest": {
+                "ext-sockets": "Use AMQPSocketConnection"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.7-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "PhpAmqpLib\\": "PhpAmqpLib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-2.1"
+            ],
+            "authors": [
+                {
+                    "name": "Alvaro Videla",
+                    "role": "Original Maintainer"
+                },
+                {
+                    "name": "John Kelly",
+                    "email": "johnmkelly86@gmail.com",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Raúl Araya",
+                    "email": "nubeiro@gmail.com",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Formerly videlalvaro/php-amqplib.  This library is a pure PHP implementation of the AMQP protocol. It's been tested against RabbitMQ.",
+            "homepage": "https://github.com/php-amqplib/php-amqplib/",
+            "keywords": [
+                "message",
+                "queue",
+                "rabbitmq"
+            ],
+            "time": "2016-04-11 14:30:01"
+        },
+        {
+            "name": "swiftmailer/swiftmailer",
+            "version": "v5.4.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/swiftmailer/swiftmailer.git",
+                "reference": "4cc92842069c2bbc1f28daaaf1d2576ec4dfe153"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/4cc92842069c2bbc1f28daaaf1d2576ec4dfe153",
+                "reference": "4cc92842069c2bbc1f28daaaf1d2576ec4dfe153",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "mockery/mockery": "~0.9.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.4-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "lib/swift_required.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Chris Corbyn"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Swiftmailer, free feature-rich PHP mailer",
+            "homepage": "http://swiftmailer.org",
+            "keywords": [
+                "email",
+                "mail",
+                "mailer"
+            ],
+            "time": "2016-07-08 11:51:25"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "cradlephp/packages": 20,
+        "cradlephp/command-line": 20,
+        "cblanquera/cradle-auth": 20,
+        "cblanquera/cradle-file": 20,
+        "cblanquera/cradle-captcha": 20,
+        "cblanquera/cradle-csrf": 20,
+        "cblanquera/cradle-mail": 20,
+        "cblanquera/cradle-queue": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
